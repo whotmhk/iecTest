@@ -18,7 +18,7 @@ PROGRAM MemoryAddress
     SIED2_line_current_14_phsB AT %MD104 : REAL;
     SIED2_line_current_14_phsC AT %MD105 : REAL;
 
-    IED3_line_cb_10 AT %QX00.2 : BOOL;
+    SIED3_line_cb_10 AT %QX00.2 : BOOL;
     (* IED3_CO_line_cb_10 AT %QX00.3 : BOOL; *)
     IED3_bus_voltage_20_phsA AT %MD3 : REAL;
     IED3_bus_voltage_20_phsB AT %MD4 : REAL;
