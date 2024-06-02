@@ -39,11 +39,3 @@ PROGRAM MemoryAddress
         (* MIED1_CO_line_cb_3 := Open; *)
   END_IF;
 END_PROGRAM
-
-CONFIGURATION Config0
-
-  RESOURCE Res0 ON PLC
-    TASK task0(INTERVAL := T#20ms,PRIORITY := 0);
-    PROGRAM instance0 WITH task0 : MemoryAddress;
-  END_RESOURCE
-END_CONFIGURATION
